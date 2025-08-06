@@ -26,14 +26,22 @@ void Dialog::on_btnOrder_clicked()
     // Concatenate Order options
     QString order;
     order += "You have ordered Ice Cream with Options: \r\n";
-    order += "Size: "     + size +       " \r\n";
-    order += "Flavor: "   + ice_cream +  " \r\n";
-    order += "toppings: " + toppings +   " \r\n";
-    order += "Syrup: "    + syrup +      " \r\n";
+    order += "---------------\n";
+    order += "1. Size: "     + size +       "\n";
+    order += "2. Flavor: "   + ice_cream +  "\n";
+    order += "3. Toppings: " + toppings +   "\n";
+    order += "4. Syrup: "    + syrup +      "\n";
+    order += "---------------\n";
 
 
     // Show the total selected Options
-    QMessageBox::information(this, "Order", order);
+    //QMessageBox::information(this, "Order", order);
+    QMessageBox msgBox;
+    msgBox.setWindowTitle("Order");
+    msgBox.setTextFormat(Qt::PlainText);  // Ensures left alignment
+    msgBox.setText(order);
+    msgBox.exec();
+
     accept();
 }
 
