@@ -51,10 +51,14 @@ This repo covers the following core Qt Widget topics:
         │ ├── widget1.cpp/.h
         │ ├── widget1.ui
         │ └── README.md
-        ├── Lesson2/
+        .
+        .
+        ├── Lesson(N)/
         │ └── … same structure for each lesson …
         ├── .gitignore
         └── README.md ← This main overview file
+
+        All Lessons are created in same structure way
 
 
 ## 🚀 Build & Run Instructions
