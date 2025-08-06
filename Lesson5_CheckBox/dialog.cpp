@@ -31,6 +31,6 @@ void Dialog::on_btnOk_clicked()
 
     //Create user message to show selected toppings
     QMessageBox::information(this, "Toppings", "Toppings to include\r\n" + topping);
-
+    accept();
 }
 
