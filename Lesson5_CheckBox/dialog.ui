@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>251</width>
-    <height>266</height>
+    <width>276</width>
+    <height>316</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>210</y>
+     <y>250</y>
      <width>216</width>
      <height>32</height>
     </rect>
@@ -45,7 +45,7 @@
      <x>20</x>
      <y>11</y>
      <width>211</width>
-     <height>181</height>
+     <height>211</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -63,44 +63,37 @@
      </widget>
     </item>
     <item>
-     <widget class="QCheckBox" name="boxCheese">
+     <widget class="QCheckBox" name="checkBox">
       <property name="text">
-       <string>Cheese</string>
+       <string>Chesse</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QCheckBox" name="boxVeggie">
+     <widget class="QCheckBox" name="checkBox_2">
       <property name="text">
        <string>Veggie</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QCheckBox" name="boxMayo">
-      <property name="text">
-       <string>Mayo</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QCheckBox" name="boxMustard">
+     <widget class="QCheckBox" name="checkBox_3">
       <property name="text">
        <string>Mustard</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QCheckBox" name="boxKetchub">
+     <widget class="QCheckBox" name="checkBox_4">
       <property name="text">
        <string>Ketchub</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QCheckBox" name="boxKitten">
+     <widget class="QCheckBox" name="checkBox_5">
       <property name="text">
-       <string>Kitten</string>
+       <string>Mayo</string>
       </property>
      </widget>
     </item>
