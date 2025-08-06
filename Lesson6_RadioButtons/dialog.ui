@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QGroupBox" name="grpIceCream">
    <property name="geometry">
     <rect>
      <x>30</x>
@@ -83,7 +83,7 @@
     </property>
    </widget>
   </widget>
-  <widget class="QGroupBox" name="groupBox_2">
+  <widget class="QGroupBox" name="grpToppings">
    <property name="geometry">
     <rect>
      <x>220</x>
@@ -131,7 +131,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QGroupBox" name="groupBox_3">
+  <widget class="QGroupBox" name="grpSyrup">
    <property name="geometry">
     <rect>
      <x>410</x>
@@ -255,13 +255,13 @@
     <string>→</string>
    </property>
   </widget>
-  <widget class="QGroupBox" name="groupBox_4">
+  <widget class="QGroupBox" name="grpSize">
    <property name="geometry">
     <rect>
      <x>30</x>
      <y>270</y>
      <width>491</width>
-     <height>121</height>
+     <height>141</height>
     </rect>
    </property>
    <property name="font">
@@ -289,7 +289,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>78</y>
+      <y>100</y>
       <width>93</width>
       <height>19</height>
      </rect>
@@ -302,7 +302,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>60</y>
+      <y>70</y>
       <width>93</width>
       <height>19</height>
      </rect>
@@ -312,7 +312,7 @@
     </property>
    </widget>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="btnOrder">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -325,7 +325,7 @@
     <string>Order</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="btnCancel">
    <property name="geometry">
     <rect>
      <x>420</x>

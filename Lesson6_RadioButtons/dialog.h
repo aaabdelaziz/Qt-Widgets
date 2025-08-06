@@ -2,6 +2,10 @@
 #define DIALOG_H
 
 #include <QDialog>
+#include <QString>
+#include <QMessageBox>
+#include <QObjectList>
+#include <QDebug>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,7 +21,14 @@ public:
     Dialog(QWidget *parent = nullptr);
     ~Dialog();
 
+
+private slots:
+    void on_btnOrder_clicked();
+
+    void on_btnCancel_clicked();
+
 private:
     Ui::Dialog *ui;
+    QString getOption(QObject *obj );
 };
 #endif // DIALOG_H
