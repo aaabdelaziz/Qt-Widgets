@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>549</width>
+    <width>571</width>
     <height>467</height>
    </rect>
   </property>
@@ -16,10 +16,10 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>31</x>
-     <y>111</y>
-     <width>124</width>
-     <height>126</height>
+     <x>30</x>
+     <y>80</y>
+     <width>141</width>
+     <height>161</height>
     </rect>
    </property>
    <property name="font">
@@ -30,56 +30,56 @@
    <property name="title">
     <string>Ice Cream</string>
    </property>
-   <widget class="QRadioButton" name="radioButton">
+   <widget class="QRadioButton" name="radioButton_2">
     <property name="geometry">
      <rect>
       <x>15</x>
-      <y>38</y>
-      <width>93</width>
-      <height>19</height>
+      <y>73</y>
+      <width>75</width>
+      <height>22</height>
      </rect>
     </property>
     <property name="text">
-     <string>Vanilla</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_3">
-    <property name="geometry">
-     <rect>
-      <x>15</x>
-      <y>74</y>
-      <width>93</width>
-      <height>19</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Chockolate</string>
+     <string>Banana</string>
     </property>
    </widget>
    <widget class="QRadioButton" name="radioButton_4">
     <property name="geometry">
      <rect>
       <x>15</x>
-      <y>92</y>
-      <width>93</width>
-      <height>18</height>
+      <y>129</y>
+      <width>99</width>
+      <height>22</height>
      </rect>
     </property>
     <property name="text">
      <string>Strawberry</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_2">
+   <widget class="QRadioButton" name="radioButton_3">
     <property name="geometry">
      <rect>
       <x>15</x>
-      <y>56</y>
-      <width>93</width>
-      <height>19</height>
+      <y>101</y>
+      <width>100</width>
+      <height>22</height>
      </rect>
     </property>
     <property name="text">
-     <string>Banana</string>
+     <string>Chockolate</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>45</y>
+      <width>68</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vanilla</string>
     </property>
    </widget>
   </widget>
@@ -87,9 +87,9 @@
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>110</y>
-     <width>121</width>
-     <height>131</height>
+     <y>82</y>
+     <width>131</width>
+     <height>161</height>
     </rect>
    </property>
    <property name="font">
@@ -100,66 +100,44 @@
    <property name="title">
     <string>Toppings</string>
    </property>
-   <widget class="QRadioButton" name="radioButton_5">
-    <property name="geometry">
-     <rect>
-      <x>13</x>
-      <y>36</y>
-      <width>68</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Nuts</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_6">
-    <property name="geometry">
-     <rect>
-      <x>13</x>
-      <y>77</y>
-      <width>93</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Fruit</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_7">
-    <property name="geometry">
-     <rect>
-      <x>13</x>
-      <y>98</y>
-      <width>93</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Candy</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_8">
-    <property name="geometry">
-     <rect>
-      <x>13</x>
-      <y>57</y>
-      <width>93</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Sprinkles</string>
-    </property>
-   </widget>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QRadioButton" name="radioButton_5">
+      <property name="text">
+       <string>Nuts</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_8">
+      <property name="text">
+       <string>Sprinkles</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_6">
+      <property name="text">
+       <string>Fruit</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_7">
+      <property name="text">
+       <string>Candy</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QGroupBox" name="groupBox_3">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>110</y>
-     <width>121</width>
-     <height>131</height>
+     <x>410</x>
+     <y>80</y>
+     <width>131</width>
+     <height>161</height>
     </rect>
    </property>
    <property name="font">
@@ -174,8 +152,8 @@
     <property name="geometry">
      <rect>
       <x>13</x>
-      <y>36</y>
-      <width>68</width>
+      <y>41</y>
+      <width>73</width>
       <height>22</height>
      </rect>
     </property>
@@ -187,8 +165,8 @@
     <property name="geometry">
      <rect>
       <x>13</x>
-      <y>77</y>
-      <width>93</width>
+      <y>93</y>
+      <width>71</width>
       <height>22</height>
      </rect>
     </property>
@@ -200,9 +178,9 @@
     <property name="geometry">
      <rect>
       <x>13</x>
-      <y>98</y>
-      <width>93</width>
-      <height>21</height>
+      <y>119</y>
+      <width>99</width>
+      <height>22</height>
      </rect>
     </property>
     <property name="text">
@@ -213,9 +191,9 @@
     <property name="geometry">
      <rect>
       <x>13</x>
-      <y>57</y>
-      <width>93</width>
-      <height>21</height>
+      <y>67</y>
+      <width>67</width>
+      <height>22</height>
      </rect>
     </property>
     <property name="text">
@@ -244,7 +222,7 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>360</x>
      <y>161</y>
      <width>58</width>
      <height>41</height>
@@ -292,7 +270,7 @@
     </font>
    </property>
    <property name="title">
-    <string>size</string>
+    <string>Size</string>
    </property>
    <widget class="QRadioButton" name="radioButton_13">
     <property name="geometry">
