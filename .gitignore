@@ -22,4 +22,7 @@ rad.json
 TestResults.xml
 
 # Discard Build 
-**/build
+**/build/
+
+# Discard .qtc
+.qtc*
