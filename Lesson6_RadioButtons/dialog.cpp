@@ -40,9 +40,27 @@ void Dialog::on_btnOrder_clicked()
 
 void Dialog::on_btnCancel_clicked()
 {
-    QMessageBox::critical(this,"WHY !!","Do not you want Ice Cream !");
-    reject();
+    // QMessageBox::critical(this,"WHY !!","Do not you want Ice Cream 😢 !"); // Option 1
+    /*  // Option 2
+        QMessageBox msgBox;
+        msgBox.setIcon(QMessageBox::Critical);
+        msgBox.setWindowTitle("WHY !!");
+        msgBox.setText("Do not you want Ice Cream 😢 !");
+        msgBox.setStandardButtons(QMessageBox::Ok);
+        msgBox.exec();
+    */
 
+    // Check if Image is loaded
+    QPixmap pix(":/icons/warning.png");
+    qDebug() << "Is pix valid? " << !pix.isNull();
+
+    // Show the message
+    QMessageBox msgBox;
+    msgBox.setIconPixmap(QPixmap(":/icons/red_warning.png")); // Option 3 to use your Icon,
+    msgBox.setText("Do not you want Ice Cream 😢 !");
+    msgBox.exec();
+
+    reject();
 }
 
 QString Dialog::getOption(QObject *obj)
