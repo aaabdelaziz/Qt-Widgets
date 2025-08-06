@@ -138,5 +138,22 @@
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>btnCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>221</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>240</x>
+     <y>183</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

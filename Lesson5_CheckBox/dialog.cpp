@@ -12,3 +12,15 @@ Dialog::~Dialog()
 {
     delete ui;
 }
+
+void Dialog::on_btnCancel_clicked()
+{
+
+}
+
+
+void Dialog::on_btnOk_clicked()
+{
+
+}
+
