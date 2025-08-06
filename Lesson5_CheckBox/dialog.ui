@@ -13,103 +13,6 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QCheckBox" name="boxCheese">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>59</y>
-     <width>71</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Cheese</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="boxVeggie">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>80</y>
-     <width>66</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Veggie</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="boxMayo">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>101</y>
-     <width>58</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Mayo</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="boxMustard">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>122</y>
-     <width>75</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Mustard</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="boxKetchub">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>143</y>
-     <width>75</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Ketchub</string>
-   </property>
-  </widget>
-  <widget class="QCheckBox" name="boxKitten">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>164</y>
-     <width>61</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Kitten</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>22</x>
-     <y>11</y>
-     <width>130</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>18</pointsize>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>Order Additions</string>
-   </property>
-  </widget>
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
@@ -131,6 +34,73 @@
      <widget class="QPushButton" name="btnCancel">
       <property name="text">
        <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>11</y>
+     <width>211</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Order Additions</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="boxCheese">
+      <property name="text">
+       <string>Cheese</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="boxVeggie">
+      <property name="text">
+       <string>Veggie</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="boxMayo">
+      <property name="text">
+       <string>Mayo</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="boxMustard">
+      <property name="text">
+       <string>Mustard</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="boxKetchub">
+      <property name="text">
+       <string>Ketchub</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="boxKitten">
+      <property name="text">
+       <string>Kitten</string>
       </property>
      </widget>
     </item>
