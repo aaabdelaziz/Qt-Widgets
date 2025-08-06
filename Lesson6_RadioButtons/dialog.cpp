@@ -25,14 +25,13 @@ void Dialog::on_btnOrder_clicked()
 
     // Concatenate Order options
     QString order;
-    order += "You have ordered Ice Cream with Options: \r\n";
-    order += "---------------\n";
-    order += "1. Size: "     + size +       "\n";
-    order += "2. Flavor: "   + ice_cream +  "\n";
-    order += "3. Toppings: " + toppings +   "\n";
-    order += "4. Syrup: "    + syrup +      "\n";
-    order += "---------------\n";
-
+    order += "You have ordered Ice Cream with Options:\n";
+    order += "-----------------------------\n";
+    order += QString("1. %1 %2\t\n").arg(QString("Size:").leftJustified(0), size);
+    order += QString("2. %1 %2\t\n").arg(QString("Flavor:").leftJustified(0), ice_cream);
+    order += QString("3. %1 %2\t\n").arg(QString("Toppings:").leftJustified(0), toppings);
+    order += QString("4. %1 %2\t\n").arg(QString("Syrup:").leftJustified(0), syrup);
+    order += "-----------------------------\n";
 
     // Show the total selected Options
     //QMessageBox::information(this, "Order", order);
